@@ -1,0 +1,1353 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Heatmap />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Kenexa' inline='true' name='federated.1t39ufz1cay2v615tty6k1jay9k2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Kenexa' name='textscan.09ekx8v08wbah0124v14w1eph09z'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='/Users/rizal.alfaridzi/Downloads/People Analytics/assignment2/Data and starter code/Kenexa.csv' dataRefreshTime='' directory='/Users/rizal.alfaridzi/Downloads/People Analytics/assignment2/Data and starter code' filename='/var/folders/vy/bn8thpjs225cswq_vpbsbrdw0000gn/T/tableau-temp/0x5cy14027q5vc10zgihn1gm3awq/Kenexa.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.09ekx8v08wbah0124v14w1eph09z' name='Kenexa.csv' table='[/Users/rizal.alfaridzi/Downloads/People Analytics/assignment2/Data and starter code/Kenexa#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:U129:no:A1:U129:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='bnum' ordinal='0' />
+            <column datatype='string' name='badd' ordinal='1' />
+            <column datatype='integer' name='bloc' ordinal='2' />
+            <column datatype='integer' name='bsize' ordinal='3' />
+            <column datatype='real' name='ecuso' ordinal='4' />
+            <column datatype='real' name='equal' ordinal='5' />
+            <column datatype='real' name='einvol' ordinal='6' />
+            <column datatype='real' name='etra' ordinal='7' />
+            <column datatype='real' name='ecomm' ordinal='8' />
+            <column datatype='real' name='eteam' ordinal='9' />
+            <column datatype='real' name='eeng' ordinal='10' />
+            <column datatype='real' name='eitl' ordinal='11' />
+            <column datatype='real' name='eben' ordinal='12' />
+            <column datatype='real' name='cserq' ordinal='13' />
+            <column datatype='real' name='cbrtel' ordinal='14' />
+            <column datatype='real' name='cbr' ordinal='15' />
+            <column datatype='real' name='cbrpb' ordinal='16' />
+            <column datatype='real' name='cloy' ordinal='17' />
+            <column datatype='integer' name='ccon' ordinal='18' />
+            <column datatype='integer' name='teltr' ordinal='19' />
+            <column datatype='integer' name='prod' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.09ekx8v08wbah0124v14w1eph09z' name='Kenexa.csv' table='[/Users/rizal.alfaridzi/Downloads/People Analytics/assignment2/Data and starter code/Kenexa#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:U129:no:A1:U129:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='bnum' ordinal='0' />
+            <column datatype='string' name='badd' ordinal='1' />
+            <column datatype='integer' name='bloc' ordinal='2' />
+            <column datatype='integer' name='bsize' ordinal='3' />
+            <column datatype='real' name='ecuso' ordinal='4' />
+            <column datatype='real' name='equal' ordinal='5' />
+            <column datatype='real' name='einvol' ordinal='6' />
+            <column datatype='real' name='etra' ordinal='7' />
+            <column datatype='real' name='ecomm' ordinal='8' />
+            <column datatype='real' name='eteam' ordinal='9' />
+            <column datatype='real' name='eeng' ordinal='10' />
+            <column datatype='real' name='eitl' ordinal='11' />
+            <column datatype='real' name='eben' ordinal='12' />
+            <column datatype='real' name='cserq' ordinal='13' />
+            <column datatype='real' name='cbrtel' ordinal='14' />
+            <column datatype='real' name='cbr' ordinal='15' />
+            <column datatype='real' name='cbrpb' ordinal='16' />
+            <column datatype='real' name='cloy' ordinal='17' />
+            <column datatype='integer' name='ccon' ordinal='18' />
+            <column datatype='integer' name='teltr' ordinal='19' />
+            <column datatype='integer' name='prod' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U129:no:A1:U129:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bnum</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bnum]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>bnum</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>badd</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[badd]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>badd</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bloc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bloc]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>bloc</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bsize</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bsize]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>bsize</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ecuso</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ecuso]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>ecuso</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>equal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[equal]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>equal</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>einvol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[einvol]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>einvol</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>etra</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[etra]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>etra</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ecomm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ecomm]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>ecomm</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eteam</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eteam]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>eteam</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eeng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eeng]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>eeng</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eitl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eitl]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>eitl</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eben</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[eben]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>eben</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cserq</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cserq]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>cserq</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cbrtel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cbrtel]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>cbrtel</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cbr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cbr]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>cbr</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cbrpb</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cbrpb]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>cbrpb</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cloy]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>cloy</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ccon</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ccon]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>ccon</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teltr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teltr]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>teltr</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prod</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[prod]</local-name>
+            <parent-name>[Kenexa.csv]</parent-name>
+            <remote-alias>prod</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Bsize (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[bsize]' peg='0' size='4.69' />
+      </column>
+      <column caption=' Customer filling the survey' datatype='integer' name='[Calculation_6889874127897038849]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='14114' />
+      </column>
+      <column caption='customer not filling survey' datatype='integer' name='[Calculation_6889874127897374722]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='70000- [Calculation_6889874127897038849]' />
+      </column>
+      <column caption='City_Country' datatype='string' name='[Calculation_6929562099634098176]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <calculation class='tableau' formula='[badd]+&quot;, USA&quot;' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Cloy (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-2' formula='[cloy]' peg='0' size='0.087' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Kenexa.csv' datatype='table' name='[__tableau_internal_object_id__].[Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5]' role='measure' type='quantitative' />
+      <column caption='Badd' datatype='string' name='[badd]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[City].[Name]'>
+          <semantic-value key='&quot;Anoka (E)&quot;' value='&quot;Anoka&quot;' />
+          <semantic-value key='&quot;Anoka (W)&quot;' value='&quot;Anoka&quot;' />
+          <semantic-value key='&quot;Arvada (N)&quot;' value='&quot;Arvada&quot;' />
+          <semantic-value key='&quot;Bismarck (N)&quot;' value='&quot;Bismarck&quot;' />
+          <semantic-value key='&quot;Bismark (E)&quot;' value='&quot;Bismarck&quot;' />
+          <semantic-value key='&quot;Boulder (S)&quot;' value='&quot;Boulder&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Bloc' datatype='integer' name='[bloc]' role='measure' type='quantitative'>
+        <aliases>
+          <alias key='0' value='Non-Metro' />
+          <alias key='1' value='Metro' />
+        </aliases>
+      </column>
+      <column caption='Bnum' datatype='integer' name='[bnum]' role='measure' type='quantitative' />
+      <column caption='Bsize' datatype='integer' name='[bsize]' role='measure' type='quantitative' />
+      <column caption='Cbr' datatype='real' name='[cbr]' role='measure' type='quantitative' />
+      <column caption='Cbrpb' datatype='real' name='[cbrpb]' role='measure' type='quantitative' />
+      <column caption='Cbrtel' datatype='real' name='[cbrtel]' role='measure' type='quantitative' />
+      <column caption='Ccon' datatype='integer' name='[ccon]' role='measure' type='quantitative'>
+        <aliases>
+          <alias key='0' value='Less Interaction' />
+          <alias key='1' value='More Interaction' />
+        </aliases>
+      </column>
+      <column caption='Cloy' datatype='real' name='[cloy]' role='measure' type='quantitative' />
+      <column caption='Cserq' datatype='real' name='[cserq]' role='measure' type='quantitative' />
+      <column caption='Eben' datatype='real' name='[eben]' role='measure' type='quantitative' />
+      <column caption='Ecomm' datatype='real' name='[ecomm]' role='measure' type='quantitative' />
+      <column caption='Ecuso' datatype='real' name='[ecuso]' role='measure' type='quantitative' />
+      <column caption='Eeng' datatype='real' name='[eeng]' role='measure' type='quantitative' />
+      <column caption='Einvol' datatype='real' name='[einvol]' role='measure' type='quantitative' />
+      <column caption='Eitl' datatype='real' name='[eitl]' role='measure' type='quantitative' />
+      <column caption='Equal' datatype='real' name='[equal]' role='measure' type='quantitative' />
+      <column caption='Eteam' datatype='real' name='[eteam]' role='measure' type='quantitative' />
+      <column caption='Etra' datatype='real' name='[etra]' role='measure' type='quantitative' />
+      <column caption='Prod' datatype='integer' name='[prod]' role='measure' type='quantitative' />
+      <column caption='Teltr' datatype='integer' name='[teltr]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Kenexa.csv' id='Kenexa.csv_A59CD57D4AC34B9C98131E92314329F5'>
+            <properties context=''>
+              <relation connection='textscan.09ekx8v08wbah0124v14w1eph09z' name='Kenexa.csv' table='[/Users/rizal.alfaridzi/Downloads/People Analytics/assignment2/Data and starter code/Kenexa#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:U129:no:A1:U129:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='bnum' ordinal='0' />
+                  <column datatype='string' name='badd' ordinal='1' />
+                  <column datatype='integer' name='bloc' ordinal='2' />
+                  <column datatype='integer' name='bsize' ordinal='3' />
+                  <column datatype='real' name='ecuso' ordinal='4' />
+                  <column datatype='real' name='equal' ordinal='5' />
+                  <column datatype='real' name='einvol' ordinal='6' />
+                  <column datatype='real' name='etra' ordinal='7' />
+                  <column datatype='real' name='ecomm' ordinal='8' />
+                  <column datatype='real' name='eteam' ordinal='9' />
+                  <column datatype='real' name='eeng' ordinal='10' />
+                  <column datatype='real' name='eitl' ordinal='11' />
+                  <column datatype='real' name='eben' ordinal='12' />
+                  <column datatype='real' name='cserq' ordinal='13' />
+                  <column datatype='real' name='cbrtel' ordinal='14' />
+                  <column datatype='real' name='cbr' ordinal='15' />
+                  <column datatype='real' name='cbrpb' ordinal='16' />
+                  <column datatype='real' name='cloy' ordinal='17' />
+                  <column datatype='integer' name='ccon' ordinal='18' />
+                  <column datatype='integer' name='teltr' ordinal='19' />
+                  <column datatype='integer' name='prod' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20221006T130711' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20221006T130711' name='Clipboard_20221006T130711leaf'>
+            <connection class='textscan' directory='/Users/rizal.alfaridzi/Documents/My Tableau Repository/Datasources' filename='Clipboard_20221006T130711.txt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20221006T130711leaf' name='Clipboard_20221006T130711#txt' table='[Clipboard_20221006T130711#txt]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20221006T130711leaf' name='Clipboard_20221006T130711#txt' table='[Clipboard_20221006T130711#txt]' type='table' />
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20221006T130711' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20221006T130711]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20221006T130711' id='Clipboard_20221006T130711'>
+            <properties context=''>
+              <relation connection='Clipboard_20221006T130711leaf' name='Clipboard_20221006T130711#txt' table='[Clipboard_20221006T130711#txt]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Badd distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column-instance column='[bsize]' derivation='Attribute' name='[attr:bsize:qk]' pivot='key' type='quantitative' />
+            <column caption='Badd' datatype='string' name='[badd]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[City].[Name]'>
+                <semantic-value key='&quot;Anoka (E)&quot;' value='&quot;Anoka&quot;' />
+                <semantic-value key='&quot;Anoka (W)&quot;' value='&quot;Anoka&quot;' />
+                <semantic-value key='&quot;Arvada (N)&quot;' value='&quot;Arvada&quot;' />
+                <semantic-value key='&quot;Bismarck (N)&quot;' value='&quot;Bismarck&quot;' />
+                <semantic-value key='&quot;Bismark (E)&quot;' value='&quot;Bismarck&quot;' />
+                <semantic-value key='&quot;Boulder (S)&quot;' value='&quot;Boulder&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Bsize' datatype='integer' name='[bsize]' role='measure' type='quantitative' />
+            <column-instance column='[badd]' derivation='None' name='[none:badd:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[Longitude (generated)]' field-type='quantitative' max='-11197537.461883025' min='-11882448.371144773' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[Latitude (generated)]' field-type='quantitative' max='4865447.6983969538' min='4475317.0652668895' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bsize:qk]' scope='cols' value='true' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bsize:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bsize:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bsize:qk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <lod column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bsize:qk]' />
+              <lod column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:badd:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[Latitude (generated)]</rows>
+        <cols>[federated.1t39ufz1cay2v615tty6k1jay9k2].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{5C485987-5B25-4851-A540-57D8205E50F1}' />
+    </worksheet>
+    <worksheet name='Bloc Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Branch Location</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column-instance column='[bloc]' derivation='Attribute' name='[attr:bloc:qk]' pivot='key' type='quantitative' />
+            <column caption='Bloc' datatype='integer' name='[bloc]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Non-Metro' />
+                <alias key='1' value='Metro' />
+              </aliases>
+            </column>
+            <column-instance column='[bloc]' derivation='Count' name='[cnt:bloc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bloc]' derivation='None' name='[none:bloc:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[bloc]' derivation='None' name='[none:bloc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bloc]' derivation='Count' name='[pcto:cnt:bloc:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:bloc:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bloc:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bloc:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:bloc:ok]' value='68' />
+            <format attr='text-format' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:bloc:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:bloc:qk]' />
+              <text column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:bloc:qk]' />
+              <lod column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[attr:bloc:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:bloc:qk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bloc:qk]</rows>
+        <cols>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:bloc:ok]</cols>
+      </table>
+      <simple-id uuid='{0A7F459B-776F-452C-87EA-B229BEFD289A}' />
+    </worksheet>
+    <worksheet name='Bsize Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Branch Size&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column aggregation='None' datatype='integer' name='[Bsize (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[bsize]' peg='0' size='4.69' />
+            </column>
+            <column caption='Bsize' datatype='integer' name='[bsize]' role='measure' type='quantitative' />
+            <column-instance column='[bsize]' derivation='Count' name='[cnt:bsize:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Bsize (bin)]' derivation='None' name='[none:Bsize (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' scope='rows' value='true' />
+            <format attr='display' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:Bsize (bin):qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:Bsize (bin):qk]' scope='cols' value='Branch Size' />
+            <encoding attr='space' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:Bsize (bin):qk]' field-type='quantitative' major-origin='5' major-spacing='1' max='56.0' min='5.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='width' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' value='40' />
+            <format attr='title' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' scope='rows' value='Number of Employees' />
+            <encoding attr='space' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' data-class='subtotal' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' value='12' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#31f418</color>
+                <color>#4fef3b</color>
+                <color>#6deb5d</color>
+                <color>#8ae67e</color>
+                <color>#a5e29e</color>
+                <color>#bfddbc</color>
+                <color>#d9d9d9</color>
+                <color>#dabec4</color>
+                <color>#dba3af</color>
+                <color>#dd889a</color>
+                <color>#de6d84</color>
+                <color>#df516f</color>
+                <color>#e13559</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' value='12' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <text column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-markers-mode' value='auto' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='783' />
+                <format attr='maxwidth' value='783' />
+                <format attr='minheight' value='519' />
+                <format attr='maxheight' value='519' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:bsize:qk]</rows>
+        <cols>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:Bsize (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1t39ufz1cay2v615tty6k1jay9k2].[Bsize (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{55877016-B766-48DF-8049-6B4FFD400442}' />
+    </worksheet>
+    <worksheet name='Ccon Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Customer Interaction with Service Personnel</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column caption='Ccon' datatype='integer' name='[ccon]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Less Interaction' />
+                <alias key='1' value='More Interaction' />
+              </aliases>
+            </column>
+            <column-instance column='[ccon]' derivation='Count' name='[cnt:ccon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ccon]' derivation='None' name='[none:ccon:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[ccon]' derivation='None' name='[none:ccon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ccon]' derivation='Count' name='[pcto:cnt:ccon:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:ccon:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:ok]' value='275' />
+            <format attr='text-format' field='[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:ccon:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:qk]' />
+              <text column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:ccon:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.1t39ufz1cay2v615tty6k1jay9k2].[pcto:cnt:ccon:qk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:ccon:qk]</rows>
+        <cols>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:ok]</cols>
+      </table>
+      <simple-id uuid='{D14E2E65-9C25-46DD-A7DF-36829F4FB7EF}' />
+    </worksheet>
+    <worksheet name='Ecuso BoxPlot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column caption='Ecuso' datatype='real' name='[ecuso]' role='measure' type='quantitative' />
+            <column-instance column='[ecuso]' derivation='None' name='[none:ecuso:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ecuso:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ecuso:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ecuso:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{537AEACF-1B56-4AE8-B67D-4030D61D3D08}' />
+    </worksheet>
+    <worksheet name='Prod Boxplot'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column-instance column='[prod]' derivation='None' name='[none:prod:qk]' pivot='key' type='quantitative' />
+            <column caption='Prod' datatype='integer' name='[prod]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <reference-line axis-column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:prod:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:prod:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:prod:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{B6D83007-7596-4B1B-B385-2D5E04467BE6}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Kenexa' name='federated.1t39ufz1cay2v615tty6k1jay9k2' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1t39ufz1cay2v615tty6k1jay9k2'>
+            <column caption='Ccon' datatype='integer' name='[ccon]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Less Interaction' />
+                <alias key='1' value='More Interaction' />
+              </aliases>
+            </column>
+            <column-instance column='[ccon]' derivation='Count' name='[cnt:ccon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ccon]' derivation='None' name='[none:ccon:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:qk]' />
+              <lod column='[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:ccon:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:qk]</rows>
+        <cols>[federated.1t39ufz1cay2v615tty6k1jay9k2].[cnt:ccon:qk]</cols>
+      </table>
+      <simple-id uuid='{4C19F60D-B7CB-4513-9946-94AC3D5A224A}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='Clipboard_20221006T130711' />
+          </datasources>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1D46CF90-A920-4509-8672-3B5FD9C18127}' />
+    </worksheet>
+    <worksheet name='test'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EFDB803E-910E-4D7E-A42A-7D17265C72CE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='48866' id='35' param='horz' type-v2='layout-flow' w='98698' x='651' y='1133'>
+            <zone h='48866' id='33' type-v2='layout-basic' w='98698' x='651' y='1133'>
+              <zone h='48866' id='9' name='Bloc Distribution' w='25255' x='651' y='1133'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48866' id='36' name='Ccon Distribution' w='40734' x='25906' y='1133'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48866' id='43' is-scaled='1' param='/Users/rizal.alfaridzi/Downloads/People Analytics/People-Analytics/employee.png' type-v2='bitmap' w='32709' x='66640' y='1133'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='48868' id='37' name='Bsize Distribution' w='65963' x='651' y='49999'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='48868' id='42' is-scaled='1' param='/Users/rizal.alfaridzi/Downloads/People Analytics/People-Analytics/Customer.png' type-v2='bitmap' w='32735' x='66614' y='49999'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97730' id='58' param='vert' type-v2='layout-flow' w='98698' x='651' y='1135'>
+                <zone fixed-size='280' h='48865' id='9' is-fixed='true' name='Bloc Distribution' w='25255' x='651' y='1135'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48865' id='36' is-fixed='true' name='Ccon Distribution' w='36722' x='25906' y='1135'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48865' id='43' is-fixed='true' is-scaled='1' param='/Users/rizal.alfaridzi/Downloads/People Analytics/People-Analytics/employee.png' type-v2='bitmap' w='36721' x='62628' y='1135'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48865' id='37' is-fixed='true' name='Bsize Distribution' w='65963' x='651' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' forceUpdate='true' h='48865' id='42' is-fixed='true' is-scaled='1' param='/Users/rizal.alfaridzi/Downloads/People Analytics/People-Analytics/Customer.png' type-v2='bitmap' w='32735' x='66614' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F19FDECE-01C4-4643-8274-2EB394C75A71}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Badd distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6DDB832F-CF20-41BD-8B37-79A48B9C53B4}' />
+    </window>
+    <window class='worksheet' name='Bloc Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:bloc:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A91FC1FE-6D21-4AC6-BC3C-44531E4451AC}' />
+    </window>
+    <window class='worksheet' name='Ccon Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83F563DD-A435-4E12-8B46-076486625607}' />
+    </window>
+    <window class='worksheet' name='Ecuso BoxPlot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D121C8BC-4CAF-4684-AE74-B1E6881DC3DD}' />
+    </window>
+    <window class='worksheet' name='Prod Boxplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CED13175-9B61-41FC-8653-10F31C2C3327}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Bsize Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7657B97E-4681-4227-A152-CADF0DEB5265}' />
+    </window>
+    <window class='worksheet' name='test'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1083BECC-37A0-4387-92F5-67757FB3C6AF}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Bloc Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Bsize Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Ccon Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D558FD3C-6595-45E9-9B34-A77214485046}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='9' param='[federated.1t39ufz1cay2v615tty6k1jay9k2].[none:ccon:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CC7C8413-A2C3-4A46-B431-39BBDE3538A7}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F9ACB4E5-15B8-45BA-BDE6-28714EA5304B}' />
+    </window>
+  </windows>
+</workbook>
